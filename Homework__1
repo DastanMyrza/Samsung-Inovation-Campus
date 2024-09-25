@@ -1,0 +1,80 @@
+import java.util.Scanner;
+
+public class SIC {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        /*_____1_____
+        Напишите программу, которая считывает количество побед, ничейных игр и поражений и
+        выводит количество очков, которая набрала команда,
+        а так же среднее кол-во очком за один матч.
+        За победу дают 3 очка, за ничью 1, за поражение 0
+        int p,n,por;
+        p = in.nextInt();
+        n = in.nextInt();
+        por = in.nextInt();
+        System.out.println(p*3 + n*1 + por*0);/*
+
+
+         /*____2____
+    Напишите программу, которая считывает целочисленные значения часов и минут,
+    конвертирует эти значения в секунды, а затем суммирует их и выводит в качестве
+    результата
+    int a, b;
+    a = in.nextInt();
+    b = in.nextInt();
+    System.out.println(a*60*60 + b*60);*/
+
+    /*____3____
+    Необходимо написать программу, которая посчитает количество ног у всех животных на
+    ферме. На ферме живут курочки, коровки, и свинки. Зная количество животных каждого
+    вида, посчитайте, сколько всего ног у всех животных на ферме
+    int kur, kor, sbi;
+    kur = in.nextInt();
+    kor = in.nextInt();
+    sbi = in.nextInt();
+    System.out.println(kur * 2 + kor *4 + sbi*4);*/
+
+        /*___4___
+    Дано некое кол-во минут n. Вывести на одной строке кол-во полных часов в этих
+    минутах, и на другой строке кол-во оставшихся минут
+    int n;
+    n = in.nextInt();
+    System.out.println("hour = " + n/60 + " minute = " + n%60);*/
+
+    /*
+    ____________5____________
+    Даны три коэф. квадратного уравнения (a,b,c) ax^2 + bx + c = 0. Найти корни
+    уравнения (можно считать что корни точно существуют)
+    int a,b,c;
+        a = in.nextInt();
+        b = in.nextInt();
+        c = in.nextInt();
+    double d;
+        d = Math.pow(b, 2) - 4 * a * c;
+    System.out.println("x1="+ (-b + Math.pow(d, 0.5))/(2*a) + " x2=" + (-b - Math.pow(d, 0.5))/(2*a));*/
+
+
+    /*
+    _____________6___________
+    Даны три стороны треугольника (a, b, c). найти площадь треугольника
+
+    int a,b,c,p;
+        a = in.nextInt();
+        b = in.nextInt();
+        c = in.nextInt();
+        p = a + b + c;
+    double square;
+        square = Math.pow( p*(p-a)*(p-b)*(p-c), 0.5);
+    System.out.println(square);*/
+    // _________7_______
+        /*int deposit,procent,years;
+        deposit = in.nextInt();
+        procent = in.nextInt();
+        years = in.nextInt();
+
+        double Sum;
+        Sum = deposit * Math.pow((1+ ((double) procent /100)),  years);
+        System.out.println((int)Sum);*/
+    }
+}
