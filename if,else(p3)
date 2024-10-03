@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class SIC_if {
+    public static void main(String[] args) {
+     
+        int a,b;
+        Scanner in = new Scanner(System.in);
+        a = in.nextInt();
+        b = in.nextInt();
+        if (a>b) System.out.println(a*3 + " " + b*2);
+        else System.out.println(a*2 + " " + b*3);
+    }
+}
