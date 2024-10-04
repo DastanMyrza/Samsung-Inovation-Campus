@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class SIC_if {
+    public static void main(String[] args) {
+    Scanner in = new Scanner(System.in);
+    int a,b,a1;
+        a = in.nextInt();
+        b = in.nextInt();
+    a1 = a/10 + a%10;
+    if (a1 > b)
+        System.out.println("YES");
+    else
+        System.out.println("NO");
+
+    }
+}
