@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class SIC_if {
+    public static void main(String[] args) {
+    Scanner in = new Scanner(System.in);
+    int a,a1,a2;
+        a = in.nextInt();
+        a1 = a/100 + a/10%10;
+        a2 = a/10%10 + a%10;
+    if (a1>a2)
+        System.out.println(a1 +"" + a2);
+    else
+        System.out.println(a2 +"" + a1);
+    }
+}
