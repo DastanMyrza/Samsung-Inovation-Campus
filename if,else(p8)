@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class SIC_if {
+    public static void main(String[] args) {
+    Scanner in = new Scanner(System.in);
+    int a,b,c,d,sred;
+        a = in.nextInt();
+        b = in.nextInt();
+        c = in.nextInt();
+        d = in.nextInt();
+        sred = (a*5+b*4+c*3+d*2)/(a+b+c+d);
+        if (sred >= 4)
+            System.out.println(a);
+        else
+            System.out.println(a+b);
+    }
+}
