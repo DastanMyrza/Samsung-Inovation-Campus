@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+
+
+public class SIC_if {
+
+  public static void main(String[] args) {
+
+  Scanner in = new Scanner(System.in);
+
+  int a,b,a1,b1;
+
+    a = in.nextInt();
+
+    b = in.nextInt();
+
+    a1 = in.nextInt();
+
+    b1 = in.nextInt();
+
+
+
+    if (a == a1 || b = b1){
+
+      System.out.println("Yes");
+
+    }
+
+    else
+
+      System.out.println("No");
+
+
+
+  }
+
+}
