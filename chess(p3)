@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class SIC_if {
+    public static void main(String[] args) {
+    Scanner in = new Scanner(System.in);
+    int a,b,a1,b1;
+        a = in.nextInt();
+        b = in.nextInt();
+        a1 = in.nextInt();
+        b1 = in.nextInt();
+
+        if ((Math.abs(a-a1) <= 1 && Math.abs(b-b1) <= 1)){
+            System.out.println("Король за один ход может перейти с одного поля на другое");
+        }
+        else
+            System.out.println("No");
+
+    }
+}
