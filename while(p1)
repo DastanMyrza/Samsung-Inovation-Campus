@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class SIC_while {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+            int a,i=1;
+        a = in.nextInt();
+        while (i<100){
+            if (i%a==0)
+            {
+                System.out.println(i);
+            }
+            i++;
+        }
+    }
+}
