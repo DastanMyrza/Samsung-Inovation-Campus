@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class SIC_while {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+            double a,b,p,sum=1;
+        a = in.nextInt();
+        b = in.nextInt();
+        p = in.nextInt();
+            a = Math.abs(a);
+        while (a<=b) {
+            a+=(a*p)/100;
+            ++sum;
+        }
+        System.out.println(sum);
+    }
+}
