@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class SIC_while {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+            int a,b=0,sum=0;
+        a = in.nextInt();
+            a = Math.abs(a);
+        while (sum < a) {
+            b++;
+            System.out.println(sum);
+            sum = b*b;
+        }
+    }
+}
