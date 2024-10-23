@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class SIC_string {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        String a;
+        int len,med;
+            a = in.next();
+        len = a.length();
+        med = len / 2;
+        String first = a.substring(0,med);
+        String second = a.substring(med);
+        System.out.println(second +""+first);
+
+    }
+}
