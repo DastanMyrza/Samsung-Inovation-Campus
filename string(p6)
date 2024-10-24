@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class SIC_string {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        String str0,str1,str2,str4;
+        str0 = in.next();
+        str1 = in.next();
+        str2 = in.next();
+        str4 = str0.substring(0,1).toUpperCase();
+        String str3 = str0.substring(1,str0.length());
+
+        System.out.println(str4+str3 +" " +str1.substring(0,1).toUpperCase()+"."+ str2.substring(0,1).toUpperCase()+"." );
+    }
+}
