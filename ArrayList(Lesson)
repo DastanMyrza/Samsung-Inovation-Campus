@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+
+public class SIC_array {
+    public static void main(String[] args) {
+        ArrayList<Integer> list = new ArrayList();
+            list.add(8);
+            list.add(18);
+            list.add(28);
+            list.add(38);
+        System.out.println(list);
+
+        for (int i = 0; i < list.size() - 1; i++) {
+            if (list.get(i) >= list.get(i+1)){
+                System.out.println(i + " " + false);
+            }
+            else
+                System.out.println(i + " " + false);
+        }
+    }
+}
