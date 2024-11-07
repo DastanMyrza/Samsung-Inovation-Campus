@@ -1,0 +1,20 @@
+
+public class SIC_fucntion {
+    public static void main(String[] args) {
+    hello("Dastan");//call
+    bye();
+        System.out.println("dfbedf".substring(2,5));
+    }
+    public static void hello(String name){
+       String s= "Hello! " + name;
+       s+="How are you?";
+        System.out.println(s);
+    }
+
+    public static void bye(){
+        String s= "Bye ";
+        s+="- bye";
+        System.out.println(s);
+    }
+}
+//Overload - перегрузка
