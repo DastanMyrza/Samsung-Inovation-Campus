@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Ok {
+    public static void main(String[] args) {
+        int a,b;
+        Scanner in = new Scanner(System.in);
+        a = in.nextInt();
+        for (int i = a; a>=0; i--) {
+            if (i%2==1){
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+}
