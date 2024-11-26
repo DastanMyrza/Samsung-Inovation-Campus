@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Ok {
+    public static void main(String[] args) {
+        int a,b,sum=0;
+        Scanner in = new Scanner(System.in);
+        a = in.nextInt();
+        b = in.nextInt();
+        for (int i=a; i<b; i++) {
+            sum+= i*i;
+
+        }System.out.println(sum);
+    }
+}
+
